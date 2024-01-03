@@ -68,3 +68,6 @@ body {
   transform-origin:top left ;
 }
 
+.content img{
+  max-width: 100%;
+}
