@@ -21,9 +21,9 @@ body {
   padding: 50px;
 }
 
-/* .container.show-nav {
-  transform: rotate(-20deg);
-} */
+ .container.show-nav {
+  transform: rotate(-20deg); 
+} 
 
 .circle-container {
   position: fixed;
@@ -68,6 +68,13 @@ body {
   top: 60%;
   transform: rotate(90deg);
   transform-origin:top left ;
+}
+
+nav{
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100%;
 }
 
 .content img{
