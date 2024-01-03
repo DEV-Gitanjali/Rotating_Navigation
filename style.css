@@ -43,6 +43,7 @@ body {
 
 .circle button{
 
+  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -51,9 +52,10 @@ body {
   border: 0;
   font-size: 26px;
   color: #fff;
+}
+
 
    
-}
 
 .circle button:focus{
   outline: none;
@@ -71,3 +73,22 @@ body {
 .content img{
   max-width: 100%;
 }
+.content{
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content{
+  margin: 0;
+}
+.content small{
+  color: #555;
+  font-style:italic ;
+}
+
+.content p{
+  color: #333;
+  line-height: 1.5;
+
+}
+
